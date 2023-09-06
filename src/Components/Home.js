@@ -8,7 +8,7 @@ const navigate = useNavigate()
   return (
     <>
     <div>Home</div>
-    <Button onClick={()=> navigate('/movie-list')} >Go to movie List</Button>
+    <Button  onClick={()=> navigate('/movie-list')} >Go to movie List</Button>
     </>
   )
 }
